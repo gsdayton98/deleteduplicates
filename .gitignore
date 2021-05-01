@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Slickedit specific stuff
+*.vtg
+*.vpwhistu
+Release
+Debug
