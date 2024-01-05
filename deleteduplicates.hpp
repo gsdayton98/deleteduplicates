@@ -4,8 +4,8 @@
 #include <iterator>
 
 // Delete duplicate entries from an array using C++ heap.
-template<typename  randomiter>
-randomiter deleteDuplicates(randomiter start, randomiter stop)
+template<typename  random_iterator>
+auto deleteDuplicates(random_iterator start, random_iterator stop) -> random_iterator
 {
     auto topSortedArray = stop;
     auto theArrayLength = distance(start, stop);
