@@ -25,7 +25,7 @@ int main(int, char *argv[]) {
     } catch (const std::exception &ex) {
         std::cerr << argv[0] << ": Exception " << ex.what() << std::endl;
     }
-
+    return returnCode;
 }
 
 
