@@ -13,4 +13,4 @@ target_link_libraries(boost_tests ${Boost_LIBRARIES})
 
 add_executable(deleteduplicates testmain.cpp deleteduplicates.hpp)
 
-add_test(NAME unit_tests COMMAND boost_tests)
+add_test(NAME unit_tests COMMAND deleteduplicates)
